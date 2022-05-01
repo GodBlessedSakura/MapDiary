@@ -15,7 +15,7 @@ graphQLFetch(query, variables = {}, showError = null, cookie = null) {
   //   : process.env.UI_SERVER_API_ENDPOINT;
   // console.log(window.ENV);
   // const apiEndpoint = process.env.UI_API_ENDPOINT;
-  const apiEndpoint = 'http://localhost:3000/graphql';
+  const apiEndpoint = 'http://139.224.251.20:3000/graphql';
   try {
     const headers = { 'Content-Type': 'application/json' };
     if (cookie) headers.Cookie = cookie;
