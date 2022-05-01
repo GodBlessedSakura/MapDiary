@@ -45,7 +45,7 @@ function installHandler(app) {
   console.log('CORS setting:', enableCors);
   let cors;
   if (enableCors) {
-    const origin = process.env.UI_SERVER_ORIGIN || 'http://localhost:8000';
+    const origin = process.env.UI_SERVER_ORIGIN || 'http://139.224.251.20:8000';
     const methods = 'POST';
     cors = { origin, methods, credentials: true };
   } else {
